@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+    <script>
+        var i = 0;
+        let edad = prompt("Escribe tu edad: ");
+        console.log("Tienes, " + edad);
+
+        let contra = "";
+        const contraBuena = "1234"
+
+        function mayorOmenor(edad){
+            if(edad < 18) {
+                console.log("Menor de edad");
+            } else if(edad >= 18){
+                console.log("Mayor de edad");
+            }
+        }
+
+        function bucle(i) {
+            for(i = 0; i <=10; i++){
+                console.log(i);
+            }
+        }
+
+        function contraseña(contra){
+            while(contra !== contraBuena){
+                contra = prompt("Escribe una contraseña: ");
+            }
+        }
+        alert("Contraseña 1234");
+        
+    </script>
+  <title>Hello World</title>
+</head>
+<body>
+    <header>
+        
+    </header>
+    <main>
+        <button onclick="console.log(mayorOmenor(edad))">Mayor o Menor</button>
+        <button onclick="console.log(bucle())">Bucle</button>
+    </main>
+</body>
+</html>
