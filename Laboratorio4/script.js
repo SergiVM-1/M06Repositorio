@@ -14,7 +14,7 @@ datosUsuario.push("nuevo", 33);
 console.log("Array después del push = " + datosUsuario);
 console.log("PARTE 2.2");  
 console.log("Elemento eliminado del array con pop es = " + datosUsuario.pop());
-console.log("La array a quedado así = " + datosUsuario);
+console.log("El array ha quedado así = " + datosUsuario);
 console.log("PARTE 2.3");  
 datosUsuario.unshift(false);
 console.log("Array después de hacer unshift = " + datosUsuario);
