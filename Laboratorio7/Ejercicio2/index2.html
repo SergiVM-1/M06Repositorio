@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Formulario Usuario</title>
+</head>
+<body>
+    <h2 id="nombre">Aquí va el nombre</h2>
+    <h2 id="fechaNAcimiento">Aquí va la fecha de nacimiento</h2>
+    <h2 id="valorSelect">Aquí va lo escogido en el select</h2>
+
+    <form>
+        <label>Nombre: </label>
+        <input id="entradaNombre" type="text"><br><br>
+
+        <label>Fecha nacimiento: </label>
+        <input type="date" id="fecha" name="edad"><br><br>
+
+        <label>País: </label>
+        <select id="pais">
+            <option value="España">España</option>
+            <option value="Francia">Francia</option>
+            <option value="Portugal">Portugal</option>
+        </select> <br><br>
+
+        <button type="button" onclick="mostrar()">Mostrar datos</button>
+    </form>
+
+    <script src="script2.js"></script>
+</body>
+</html>
