@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Formulario Práctica 13</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <form id="formulario">
+    <fieldset>
+      <legend>Datos personales</legend>
+
+      <label for="nombre">Nombre:</label>
+      <input type="text" id="nombre" required minlength="2">
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" required>
+
+      <label for="password">Contraseña:</label>
+      <input type="password" id="password" required minlength="8">
+
+      <label for="motivacion">Motivación:</label>
+      <textarea id="motivacion" maxlength="200" required></textarea>
+      <span id="contador">0 / 200</span>
+
+      <br><br>
+      <button type="submit">Enviar</button>
+    </fieldset>
+  </form>
+
+  <script src="script.js"></script>
+</body>
+</html>

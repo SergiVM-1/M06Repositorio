@@ -1,0 +1,50 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+fieldset {
+  max-width: 400px;
+  border: 2px solid #ccc;
+  padding: 20px;
+  background-color: #f9f9f9;
+}
+
+input, textarea {
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 8px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+}
+
+input:focus, textarea:focus {
+  outline: none;
+  border: 2px solid #007BFF;
+}
+
+input:valid, textarea:valid {
+  border: 2px solid green;
+}
+
+input:invalid, textarea:invalid {
+  border: 2px solid red;
+}
+
+button {
+  padding: 10px;
+  border: none;
+  background-color: #007BFF;
+  color: white;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #0056b3;
+  cursor: pointer;
+}
+
+#contador {
+  font-size: 14px;
+}
